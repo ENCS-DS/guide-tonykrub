@@ -1,13 +1,25 @@
-package com.company.app;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package greeter;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
-
+/**
+ *
+ * @author V_WONGSU
+ */
 public class TestGreeter {
-	
-	@Test
-	public void testSayHello() {
-		Greeter myGreeter = new Greeter();
-		assertEquals("hello", myGreeter.SayHello());
-	}
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        SayHello();
+    }
+    
+    public static void SayHello() {
+    System.out.println("Hello!");
+  }
 }
